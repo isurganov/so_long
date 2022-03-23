@@ -6,11 +6,11 @@
 /*   By: spzona <spzona@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 14:27:17 by spzona            #+#    #+#             */
-/*   Updated: 2022/03/21 19:43:40 by spzona           ###   ########.fr       */
+/*   Updated: 2022/03/23 17:29:42 by spzona           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_so_long.h"
+#include "../includes/so_long.h"
 
 int	game(char **argv)
 {

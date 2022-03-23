@@ -6,11 +6,11 @@
 /*   By: spzona <spzona@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 16:10:46 by spzona            #+#    #+#             */
-/*   Updated: 2022/03/21 16:40:15 by spzona           ###   ########.fr       */
+/*   Updated: 2022/03/23 17:29:42 by spzona           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_so_long.h"
+#include "../includes/so_long.h"
 
 static void	make_enemy_move(t_program *sl, int i, int x, int y)
 {

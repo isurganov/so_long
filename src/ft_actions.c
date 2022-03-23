@@ -6,11 +6,11 @@
 /*   By: spzona <spzona@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 19:03:09 by spzona            #+#    #+#             */
-/*   Updated: 2022/03/21 20:31:22 by spzona           ###   ########.fr       */
+/*   Updated: 2022/03/23 17:29:42 by spzona           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_so_long.h"
+#include "../includes/so_long.h"
 
 void	ft_lost_game(t_program *sl)
 {

@@ -6,14 +6,14 @@
 #    By: spzona <spzona@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/22 14:26:27 by spzona            #+#    #+#              #
-#    Updated: 2022/03/22 14:29:46 by spzona           ###   ########.fr        #
+#    Updated: 2022/03/22 15:51:30 by spzona           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = so_long
 
-OPTFLAGS 		=		-O2
-CFLAGS 			= 		-Wall -Wextra -Werror
+OPTFLAGS = -O2
+CFLAGS = -Wall -Wextra -Werror
 
 LIBFT =	libft/libft.a
 LIBFT_PATH = libft/
@@ -28,8 +28,8 @@ SRC =	ft_so_long.c	ft_print_msg.c	ft_check_file_validity.c   \
 		ft_draw.c                 ft_handle_moves.c        ft_free_memory.c           \
 		ft_actions.c              ft_move_enemy.c	
 				
-OBJ 			=		$(patsubst %.c,%.o,$(addprefix $(SRC_PATH),$(SRC)))
-D_FILES 		=		$(patsubst %.c,%.d,$(addprefix $(SRC_PATH), $(SRC)))
+OBJ = $(patsubst %.c,%.o,$(addprefix $(SRC_PATH),$(SRC)))
+D_FILES = $(patsubst %.c,%.d,$(addprefix $(SRC_PATH), $(SRC)))
 
 all:	$(LIBFT) $(MLX) $(NAME)
 

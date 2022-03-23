@@ -6,11 +6,11 @@
 /*   By: spzona <spzona@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 17:17:38 by spzona            #+#    #+#             */
-/*   Updated: 2022/03/21 20:27:45 by spzona           ###   ########.fr       */
+/*   Updated: 2022/03/23 17:29:42 by spzona           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_so_long.h"
+#include "../includes/so_long.h"
 
 int	ft_close_program(t_program *sl)
 {

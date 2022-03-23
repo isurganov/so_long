@@ -6,11 +6,11 @@
 /*   By: spzona <spzona@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 18:59:42 by spzona            #+#    #+#             */
-/*   Updated: 2022/03/21 20:29:46 by spzona           ###   ########.fr       */
+/*   Updated: 2022/03/23 17:29:42 by spzona           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_so_long.h"
+#include "../includes/so_long.h"
 
 static int	check_file_name(char *file)
 {
